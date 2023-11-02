@@ -9,7 +9,7 @@
 ```bash 
 oc - version
 ```
-![[ocverify.png]]
+!(ocverify.png)
 #### Step 3
 Here we will apply the kustomization that we have created for the Dev environment. You can apply directly from the `base` directory or from the `overlays/dev` directory.
 
@@ -23,6 +23,6 @@ For CLI:
 ```bash
 oc get pods -n openshift-keda
 ```
-![[cmaverify.png]]
+!(cmaverify.png)
 
 For Console look under Operators tab and then Installed Operators on left pane. 
